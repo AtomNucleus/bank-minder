@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Hotel Bank Tracker",
+    "slug": "hotel-bank-tracker",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.atomnucleus.hotelbanktrackertracker",
+      "supportsTabletMode": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Camera access is required to scan documents and verify transactions",
+        "NSUserNotificationCenter": {
+          "NSRemoteNotificationsPermissions": [
+            "alert",
+            "sound",
+            "badge"
+          ]
+        }
+      }
+    },
+    "plugins": [
+      [
+        "expo-live-activity",
+        {
+          "supportsUndim": true,
+          "supportsContentExtension": true
+        }
+      ]
+    ],
+    "scheme": "hotelbanktrackertracker",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
