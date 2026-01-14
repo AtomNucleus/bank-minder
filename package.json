@@ -1,0 +1,31 @@
+{
+  "name": "bank-minder",
+  "version": "1.0.0",
+  "description": "A banking management application",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "dependencies": {
+    "expo": "^50.0.0",
+    "expo-notifications": "^0.27.0",
+    "expo-image-picker": "^14.7.0",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "expo-file-system": "^16.0.0",
+    "expo-router": "^3.4.0",
+    "expo-live-activity": "^0.8.0",
+    "react": "^18.2.0",
+    "react-native": "^0.73.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@types/jest": "^29.5.0",
+    "jest": "^29.7.0"
+  },
+  "private": true
+}
